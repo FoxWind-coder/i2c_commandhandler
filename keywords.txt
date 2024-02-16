@@ -1,0 +1,5 @@
+CommandHandler	KEYWORD1
+begin			KEYWORD1
+handleCommands	KEYWORD1
+addCommandHandler	KEYWORD1
+sendCommand	KEYWORD1
