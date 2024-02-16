@@ -33,7 +33,7 @@ void loop() {
   commandHandler.sendCommand(8, "off");
   delay(1000);
 }
-
+```
 ### For Slave Arduino:
 
 ```cpp
@@ -70,7 +70,7 @@ void turnOnLED(String parameter) {
 void turnOffLED(String parameter) {
   digitalWrite(ledPin, LOW);
 }
-
+```
 
 ### Supported Commands: 
 Here are additional functions of the CommandHandler library that may be useful in your project:
